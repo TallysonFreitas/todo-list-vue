@@ -1,9 +1,10 @@
 <script setup>
   import { reactive } from 'vue';
-  import Cabecalho from '/components/cabecalho.vue';
-  import Formulario from '/components/formulario.vue';
-  import ListaDeTarefas from '/components/ListaDeTarefas.vue';
 
+  import Cabecalho from './components/cabecalho.vue';
+  import Formulario from './components/formulario.vue';
+  import ListaDeTarefas from './components/ListaDeTarefas.vue';
+  
   const estado =reactive({
     filtro:'Todas',
     tarefaTemporaria:'',
